@@ -24,3 +24,6 @@ base.mean()
 base['age'].mean()
 base['age'][base.age > 0].mean()
 base.loc[base.age < 0, 'age'] = 40.92
+
+pd.isnull(base['age'])
+base.loc[pd.isnull(base['age'])]
