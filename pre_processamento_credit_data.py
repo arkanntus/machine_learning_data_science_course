@@ -27,3 +27,11 @@ base.loc[base.age < 0, 'age'] = 40.92
 
 pd.isnull(base['age'])
 base.loc[pd.isnull(base['age'])]
+
+previsores = base.iloc[:, 1:4].values
+classe = base.iloc[:, 4].values
+
+from sklearn.preprocessing import Imputer
+imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
+imputer = imputer.fit(previsores[:, 0:3])
+previsores[:, 0:3] = imputer.transform(previsores[:, 0:3])
