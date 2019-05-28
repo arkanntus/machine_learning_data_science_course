@@ -1,5 +1,7 @@
 Census
 ------------------------
+0.7559 - Base line classifier (ZeroR)
+
 0.4767 - Naive Bayes (labelencoder + onehotencoder + escalonamento)
 0.7952 - Naive Bayes (labelencoder)
 0.7950 - Naive Bayes (labelencoder + onehotencoder)
