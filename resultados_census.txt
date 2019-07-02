@@ -18,3 +18,8 @@ Census
 0.8479 - Random forest n_estimators = 40 (labelencoder + escalonamento)
 
 0.7880 - CN2 (sem pré-processamento)
+
+0.8223 - kNN 5 (labelencoder + onehotencoder + escalonamento)
+0.7746 - kNN 5 (labelencoder)
+0.7760 - kNN 5 (labelencoder + onehotencoder)
+0.8219 - kNN 5 (labelencoder + escalonamento)
