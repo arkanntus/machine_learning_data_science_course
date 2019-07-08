@@ -6,3 +6,4 @@ Credit data
 0.9839 - Randon forest n_estimators = 40 (inconsistentes + faltantes + escalonamento)
 0.9520 - CN2 (sem pré-processamento)
 0.9859 - kNN (inconsistentes + faltantes + escalonamento)
+0.9439 - Regressão logística (inconsistentes + faltantes + escalonamento)
