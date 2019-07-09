@@ -23,3 +23,8 @@ Census
 0.7746 - kNN 5 (labelencoder)
 0.7760 - kNN 5 (labelencoder + onehotencoder)
 0.8219 - kNN 5 (labelencoder + escalonamento)
+
+0.8495 - Regressão logística (labelencoder + onehotencoder + escalonamento)
+0.7909 - Regressão logística (labelencoder)
+0.7954 - Regressão logística (labelencoder + onehotencoder)
+0.8184 - Regressão logística (labelencoder + escalonamento)
