@@ -28,3 +28,13 @@ Census
 0.7909 - Regressão logística (labelencoder)
 0.7954 - Regressão logística (labelencoder + onehotencoder)
 0.8184 - Regressão logística (labelencoder + escalonamento)
+
+0.8507 - SVM linear (labelencoder + onehotencoder + escalonamento)
+?      - SVM linear (labelencoder)
+?      - SVM linear (labelencoder + escalonamento)
+0.8507 - SVM linear (labelencoder + onehotencoder)
+
+0.8352 - Rede neural (labelencoder + onehotencoder + escalonamento)
+0.2440 - Rede neural (labelencoder)
+0.7881 - Rede neural (labelencoder + escalonamento)
+0.8481 - Rede neural (labelencoder + onehotencoder)
