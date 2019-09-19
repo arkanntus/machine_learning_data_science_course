@@ -19,7 +19,7 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neural_network import MLPClassifier
 
-classificadorSVM = SVC(kernel = 'rbf', C = 2.0)
+classificadorSVM = SVC(kernel = 'rbf', C = 2.0, probability = True)
 classificadorSVM.fit(previsores, classe)
 
 classificadorRandomForest = RandomForestClassifier(n_estimators = 40, criterion = 'entropy')
