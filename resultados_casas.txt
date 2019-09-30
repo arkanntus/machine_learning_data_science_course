@@ -18,7 +18,14 @@ Regressão polinomial (degree=2)
 Score: 0.82 / 0.81
 MAE: 101236.40
 
+
 Regressão com árvore de decisão
 -----------------------------
 Score: 0.99 / 0.71
 MAE: 98973.20
+
+
+Regressão com random forest
+-----------------------------
+Score: 0.98 / 0.88
+MAE: 67648.69
