@@ -25,7 +25,13 @@ Score: 0.99 / 0.71
 MAE: 98973.20
 
 
-Regressão com random forest
+Regressão com random forest (100 árvores)
 -----------------------------
 Score: 0.98 / 0.88
 MAE: 67648.69
+
+
+Regressão com vetores de suporte (SVR kernel rbf)
+-----------------------------
+Score: 0.81 / 0.73
+MAE: 82479.21
