@@ -35,3 +35,9 @@ Regressão com vetores de suporte (SVR kernel rbf)
 -----------------------------
 Score: 0.81 / 0.73
 MAE: 82479.21
+
+
+Regressão com redes neurais (9,9)
+-----------------------------
+Score: 0.87 / 0.87
+MAE: 78698.09
