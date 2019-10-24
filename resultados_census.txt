@@ -18,6 +18,7 @@ Census
 0.8479 - Random forest n_estimators = 40 (labelencoder + escalonamento)
 0.8321 - Random forest n_estimators = 40 (labelencoder) + PCA 6 componentes
 0.8200 - Random forest n_estimators = 40 (labelencoder) + KernelPCA 6 componentes
+0.7334 - Random forest n_estimators = 40 (labelencoder) + LDA 1 componente
 
 0.7880 - CN2 (sem pré-processamento)
 
